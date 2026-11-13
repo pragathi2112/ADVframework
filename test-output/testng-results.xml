@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-08T13:54:58 IST" name="Suite" finished-at="2026-11-08T13:55:03 IST" duration-ms="5439">
+    <groups>
+      <group name="regression">
+        <method signature="Addtocart.addtocarttest()[pri:0, instance:TestNG.Addtocart@3023df74]" name="addtocarttest" class="TestNG.Addtocart"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Addtocart.addtocarttest()[pri:0, instance:TestNG.Addtocart@3023df74]" name="addtocarttest" class="TestNG.Addtocart"/>
+        <method signature="Logintest.logintest()[pri:0, instance:TestNG.Logintest@2b662a77]" name="logintest" class="TestNG.Logintest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-11-08T13:54:58 IST" name="Test" finished-at="2026-11-08T13:55:03 IST" duration-ms="5439">
+      <class name="TestNG.Addtocart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestNG.Addtocart@3023df74]" started-at="2026-11-08T13:55:01 IST" name="setup" finished-at="2026-11-08T13:55:02 IST" duration-ms="1507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addtocarttest()[pri:0, instance:TestNG.Addtocart@3023df74]" started-at="2026-11-08T13:55:02 IST" name="addtocarttest" finished-at="2026-11-08T13:55:03 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocarttest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestNG.Addtocart@3023df74]" started-at="2026-11-08T13:55:03 IST" name="teardown" finished-at="2026-11-08T13:55:03 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG.Addtocart -->
+      <class name="TestNG.Logintest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestNG.Logintest@2b662a77]" started-at="2026-11-08T13:54:58 IST" name="setup" finished-at="2026-11-08T13:55:00 IST" duration-ms="2274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:TestNG.Logintest@2b662a77]" started-at="2026-11-08T13:55:00 IST" name="logintest" finished-at="2026-11-08T13:55:01 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestNG.Logintest@2b662a77]" started-at="2026-11-08T13:55:01 IST" name="teardown" finished-at="2026-11-08T13:55:01 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
